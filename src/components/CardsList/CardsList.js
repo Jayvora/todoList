@@ -21,7 +21,6 @@ const CardsList = ({ list }) => {
       id: getRandomId(),
       title: title,
       description: description,
-      date: new Date(),
     };
     const updatedCards = [...list.cards, cardDetails];
     const updatedList = cardsList.map((item) => {
