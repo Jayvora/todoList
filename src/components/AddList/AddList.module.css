@@ -1,0 +1,8 @@
+.addList {
+  background-color: #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
